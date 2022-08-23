@@ -1,6 +1,6 @@
 function [coop,pay,s1,freq,Str]=CalcSMEquilibrium_N(qvec,piRound,beta,eps)
 
-% Simulating the evolutionary dynamics for the population with NO information
+% Calculating the strategy distribution and cooperation rates for the population with NO information
 % [coop,pay,s1,freq,Str]=CalcSMEquilibrium_N(qvec,piRound,beta,eps);
 % Calculates the cooperation rate coop, payoff pay, frequency to be in state 1 s1,
 % frequency of all memory-1 strategies freq, in the selection-mutation
