@@ -1,5 +1,6 @@
 function [pi,coop,Str]=SimEvolution_F(q,b1,b2,c,N,beta,epsi)
 
+% Simulating the evolutionary dynamics for the population with FULL information
 % [W,w1,w2,pi,coop]=SimEvolution_F(q,b1,b2,c,N1,N2,beta,epsi);
 % INPUT:
 % q=[q12, q11, q10, q02, q01, q00], where qij is the transition
